@@ -1,0 +1,70 @@
+.navigation{
+    background-color: #F8F8F8;
+    vertical-align: top;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    background: radial-gradient(circle,#6f5964,#24161c);
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.img-profile{
+    width: 350px;
+}
+
+.about-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.about-title{
+    background: rgb(138,135,150);
+background: linear-gradient(180deg, rgba(138,135,150,1) 44%, rgba(162,161,168,1) 65%, rgba(162,161,168,1) 88%);
+}
+
+.about-p, .project-container{
+    background: rgb(254,254,254);
+background: linear-gradient(90deg, rgba(254,254,254,1) 4%, rgba(234,226,233,1) 46%, rgba(219,204,218,1) 88%);
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #C0C0C0;
+}
+
+.img-project{
+    width: 100%;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 290px;
+}
+
+.tech-container{
+    padding: 5%;
+}
+
+.img-tech{
+    width: 33px;
+    margin: 7px;
+}
+
+.project-p{
+    padding: 5%;
+}
